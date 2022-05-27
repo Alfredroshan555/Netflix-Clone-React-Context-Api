@@ -1,11 +1,13 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useParams,useSearchParams } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
 
 const Navbar = () => {
   const { user, logOut } = UserAuth();
   const navigate = useNavigate();
-  // console.log(user);
+  const login = useParams();
+  
+ 
 
   const handleLogout = async (e) => {
     try {

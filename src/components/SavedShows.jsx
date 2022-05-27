@@ -7,6 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const SavedShows = () => {
     const [movies,setMovies]  =useState([])
+    // getting user data from the context
     const {user} = UserAuth()
 
     const slideLeft = () => {
