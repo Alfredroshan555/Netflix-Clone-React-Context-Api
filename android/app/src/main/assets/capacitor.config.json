@@ -1,0 +1,6 @@
+{
+	"appId": "com.netflix.app",
+	"appName": "netflix-clone-react",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
